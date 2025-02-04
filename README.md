@@ -1,6 +1,6 @@
 ﻿# Voice Changer
 
-<video controls width="640">
+<video controls width="640" height="480">
   <source src="https://screenrec.com/share/scfdRuDX16" type="video/mp4" />
   Download the
   <a href="https://screenrec.com/share/scfdRuDX16">Recording</a>
