@@ -1,0 +1,118 @@
+{
+    "translation": {
+        "appSettings": {
+            "title": "Paramètres de l'application",
+            "colorTheme": "Thème de couleurs :",
+            "colorThemeAuto": "Thème de l'appareil",
+            "colorThemeLight": "Thème clair",
+            "colorThemeDark": "Thème sombre",
+            "language": "Langue :",
+            "compatibilityMode": "Mode de compatibilité/rendu direct :",
+            "compatibilityModeInfos": "Ce mode est activé automatiquement en cas de problème de compatibilité détecté. Activez-le si l'application ne produit aucun son. Ce mode permet également de modifier en temps réel les sons par rendu direct, mais la sauvegarde des sons modifiés prendra plus de temps à cause de contraintes techniques.",
+            "advanced": "Paramètres avancés",
+            "audioWorkletEnable": "Support des AudioWorklet :",
+            "audioWorkletEnableInfos": "Active l'utilisation de la technologie AudioWorklet pour certains filtres (limiteur, effet 8-bit). Cela améliore les performances de ces filtres, et remplace une ancienne technologie dépréciée.",
+            "soundtouchAudioWorkletEnable": "Support des AudioWorklet pour le filtre Modifier la vitesse / fréquence (expérimental) :",
+            "soundtouchAudioWorkletEnableInfos": "Active l'utilisation expérimentale de la technologie AudioWorklet pour ce filtre en particulier. Cela remplace une ancienne technologie dépréciée.",
+            "bufferSize": "Taille de tampon :",
+            "bufferSizeInfos": "Cette taille de tampon est utilisée dans les traitements audio lorsque le support des AudioWorklet est désactivé. En laissant cette valeur à auto, votre navigateur détermine automatiquement la meilleure taille pour votre environnement. Une valeur plus élevée améliore la qualité audio, mais au détriment de la latence.",
+            "defaultBufferSize": "Auto",
+            "samplingFrequency": "Fréquence d'échantillonnage :",
+            "samplingFrequencyInfo": "Paramètre la fréquence d'échantillonage utilisée pour les traitements audio. Plus elle est élevée, meilleure est la qualité, mais le traitement audio nécessitera plus de mémoire. Utilise par défaut la fréquence d'échantillonage paramétrée sur votre système.",
+            "defaultSampleRate": "Par défaut",
+            "sampleRateHz": "Hz",
+            "sampleRateKHz": "kHz",
+            "actualSampleRate": "Fréquence actuelle :",
+            "samplingFrequencyTooHigh": "Vous avez sélectionné une fréquence d'échantillonage trop élevée que votre appareil ne peut potentiellement pas supporter. Vous risquez de rencontrer des problèmes inattendus.",
+            "audioWorkletNotAvailable": "Le support des AudioWorklet est actuellement indisponible dans cet environnement. Ce paramètre n'aura donc aucun effet.",
+            "enableInitialRendering": "Activer le rendu audio initial :",
+            "enableInitialRenderingInfos": "Active le rendu audio initial lors de la sélection d'un fichier audio ou la validation d'un enregistrement audio. Si désactivé, l'initialisation d'un audio sera plus rapide, mais vous devrez valider manuellement vos paramètres pour effectuer le rendu audio initial. Ce paramètre n'a aucun effet en mode de compatibilité.",
+            "bitRateMP3": "Bitrate de l'encodeur MP3 :",
+            "bitRateMP3Infos": "Défini le bitrate utilisé par l'encodeur lorsque vous sauvegardez l'audio au format MP3. Plus la valeur est élevée, meilleure est la qualité, au détriment de la taille finale du fichier.",
+            "bitRateMP3Kbps": "kbps"
+        },
+        "homeMenu": {
+            "selectAudioFile": "Sélectionner un ou plusieurs fichiers audio",
+            "recMicrophone": "Enregistrer via le micro"
+        },
+        "audioPlayer": {
+            "play": "Lire",
+            "pause": "Pause",
+            "stop": "Stop",
+            "loop": "Lire en boucle",
+            "loopMultipleFile": "Lire en boucle la liste audio, ou uniquement l'audio actuel",
+            "save": "Sauvegarder l'audio",
+            "saveToMp3": "Format MP3",
+            "saveToWav": "Format WAV",
+            "previousMedia": "Charger l'audio précédent",
+            "nextMedia": "Charger l'audio suivant",
+            "playlist": "Liste de lecture"
+        },
+        "dialogs": {
+            "pleaseWait": "Merci de patienter quelques instants",
+            "goToHome": {
+                "title": "Retourner à l'accueil",
+                "info": "Êtes-vous sûr de vouloir quitter et retourner à l'accueil de l'application ? Vous perdrez toutes vos modifications non enregistrées"
+            },
+            "loadingApp": {
+                "title": "Chargement de l'application"
+            },
+            "loadingAudioFile": {
+                "title": "Chargement du fichier audio"
+            },
+            "audioRecorderAuthorization": {
+                "title": "Autorisation",
+                "info": "Merci d'autoriser l'accès au microphone de votre appareil pour pouvoir utiliser cette fonctionnalité"
+            },
+            "errorAuthorizationAudioRecorderDialog": {
+                "title": "Erreur d'autorisation",
+                "info": "Vous avez refusé l'accès au microphone de votre appareil, cette fonctionnalité ne peut donc pas être utilisée. Réinitialisez les autorisations de votre navigateur pour cette application, puis réessayez"
+            },
+            "errorRecorderDeviceNotFoundDialog": {
+                "title": "Aucun microphone trouvé",
+                "info": "Aucun microphone n'a été trouvé. Assurez-vous qu'un microphone soit bien branché à votre appareil, puis réessayez"
+            },
+            "errorRecorderUnknownDialog": {
+                "title": "Erreur lors de l'initialisation de l'enregistreur audio",
+                "info": "Une erreur inattendue est survenue lors de l'initialisation de l'enregistreur audio. Merci de réessayer"
+            },
+            "audioFileListDialog": {
+                "title": "Liste de lecture"
+            }
+        },
+        "audioRecorder": {
+            "record": "Enregistrer",
+            "pause": "Pause",
+            "stop": "Arrêter et démarrer l'édition",
+            "settings": "Paramètres…",
+            "notAvailable": "Désolé, cette fonctionnalité n'est pas disponible pour le moment. Soit votre navigateur est incompatible avec cette fonctionnalité, soit vous vous trouvez dans un contexte non sécurisé (site web non https)."
+        },
+        "recorderSettings": {
+            "title": "Paramètres de l'enregistreur audio",
+            "device": "Périphérique d'entrée :",
+            "audioFeedback": "Retour audio :",
+            "echoCancellation": "Annulation d'echo :",
+            "noiseSuppression": "Réduction de bruit :",
+            "autoGainControl": "Gain automatique :"
+        },
+        "appInfos": {
+            "title": "Informations sur l'application",
+            "infos": "{{appName}} vous permet de modifier des fichiers audio et d'y appliquer des filtres en toute simplificité. Pour cela, sélectionnez un ou plusieurs fichiers audio ou enregistrez un son (votre voix, par exemple). Vous pouvez ensuite télécharger le résultat. Tout le traitement audio est fait sur votre appareil, aucune donnée n'est envoyée vers Internet, et l'application est libre et open-source.",
+            "appVersion": "Version de l'application :",
+            "versionDate": "Date de version :",
+            "license": "Licence :",
+            "websites": "Site web officiel/code source :",
+            "updateAvailable": "Une mise à jour est disponible vers la version {{version}} en date du {{versionDate}}.",
+            "moreInfos": "Plus d'infos",
+            "upToDate": "À jour"
+        },
+        "firstLaunch": {
+            "title": "Bienvenue !"
+        },
+        "close": "Fermer",
+        "ok": "OK",
+        "cancel": "Annuler",
+        "validate": "Valider",
+        "reset": "Réinitialiser"
+    }
+}
